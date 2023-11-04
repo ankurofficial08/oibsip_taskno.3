@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat"  sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('todo6.jpg');
+    background-repeat: no-repeat;
+    background-size: 105%;
+    min-height: 100vh;
+    background-position: center;
+}
+
+.date{
+
+    text-align: center;
+    color: #fff;
+   
+}
+
+.date input{
+    background: transparent;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.date hr{
+    width: 10%;
+    margin-left: 42%;
+    
+}
+
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+.container input{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+.title{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0),
+    5px 4px 0px rgb(0, 0, 0);
+}
+
+
+.txtb{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    pad: 10px;
+    outline: none;
+    font-size: 8px;
+    color: #fff;
+}
+
+
+
+
+h3{
+    margin: 10px 0;
+    color: #fff;
+}
+
+
+.task{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+    color: #fff;
+    
+}
+
+.task i{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.Comp .task{
+   background: rgba(0, 255, 0, 0.8);
+   color: #fff;
+}
+
